@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: acessos Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: barba
+Implementation-Vendor-Id: br.com.indra
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/acessos/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
