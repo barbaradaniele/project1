@@ -2,14 +2,13 @@ package br.com.indra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Component;
-import org.springframework.boot.orm.jpa.EntityScan;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EntityScan(basePackages = "br.com.indra.model")
-@EnableJpaRepositories(basePackages = "br.com.indra.repository")
-@SpringBootApplication(scanBasePackages = "br.com.indra")
-@Component
+import br.com.indra.configuration.JpaConfiguration;
+
+import org.springframework.context.annotation.Import;
+
+@Import(JpaConfiguration.class)
+@SpringBootApplication(scanBasePackages={"br.com.indra"})
 public class Starter {
 
 	// Spring boot

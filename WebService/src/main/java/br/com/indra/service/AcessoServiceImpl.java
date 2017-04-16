@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import br.com.indra.model.Acesso;
 import br.com.indra.repository.AcessoRepository;
 
-@Service("acessoService")
+@Service
 @Transactional
 public class AcessoServiceImpl implements AcessoService{
 

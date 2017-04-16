@@ -1,4 +1,4 @@
-var app = angular.module('crudApp',['ui.router','ngStorage']);
+var app = angular.module('acessoApp',['ui.router','ngStorage']);
 
 app.constant('urls', {
     BASE: 'http://localhost:8080/WebService',
